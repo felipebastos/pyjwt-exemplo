@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyjwt-exemplo"
+version = "0.1.0"
+description = ""
+authors = ["Felipe Bastos Nunes <felipebastos@ifce.edu.br>"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyJWT = "^2.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
